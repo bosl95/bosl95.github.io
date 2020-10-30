@@ -8,7 +8,7 @@ permalink: /about/
 
 ### More Information
 
-포기를 모르는 사람(일명 포모맨)의 글 연습장입니다.
+포기를 모르는, 일명 의 글 연습장입니다.
 
 ### Contact me
 
