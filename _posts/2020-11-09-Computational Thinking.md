@@ -91,10 +91,10 @@ comments: true
     
     <image src='https://user-images.githubusercontent.com/34594339/98507207-76e89d80-22a0-11eb-9d03-9f72902a57f7.png' width='70%'>
   
-    - 맨 뒤의 노드가 루트 노드이다.<br>
+    - 맨 뒤의 노드가 루트 노드이다.
 
-<br>
+<br><br>
 
-## 참고 사이트
+## 참고 사이트<br>
 
 - [https://davinci-ai.tistory.com/37?category=931528](https://davinci-ai.tistory.com/37?category=931528)
