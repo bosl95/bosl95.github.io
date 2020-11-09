@@ -38,10 +38,10 @@ paginate: 5
 footer-links:
   behance: # https://www.behance.net/<username>
   dribbble:
-  email:
+  email: bosl95@naver.com
   facebook:
   flickr:
-  github: AWEEKJ/kiko-now
+  github: bosl95
   googleplus: # anything in your profile username that comes after plus.google.com/
   instagram:
   linkedin:
@@ -70,7 +70,7 @@ url: http://bosl95.github.io/
 # (http://yourusername.github.io/repository-name)
 # and NOT your User repository (http://yourusername.github.io)
 # then add in the baseurl here, like this: "/repository-name"
-baseurl:''
+baseurl: ''
 
 #
 # !! You don't need to change any of the configuration flags below !!
@@ -99,11 +99,13 @@ sass:
 # Use the following plug-ins
 plugins:
   - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
-#  - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
-#  - jekyll-paginate
+  - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
+  - jekyll-paginate
 
 # Exclude these files from your production _site
 exclude:
+  - Gemfile
+  - Gemfile.lock
   - LICENSE
   - README.md
   - CNAME
