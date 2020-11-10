@@ -62,7 +62,7 @@ comments: true
 
 ### 5. 트리
 
-<image src='https://user-images.githubusercontent.com/34594339/98506259-6d5e3600-229e-11eb-855a-cadf029351c5.png' width='70%'>
+![image](https://user-images.githubusercontent.com/34594339/98506259-6d5e3600-229e-11eb-855a-cadf029351c5.png)
 
 - Node : 트리를 구성하는 각각의 정보(요소)
 - Root : 트리에 계층이 존재한다. 가장 높은 곳을 루트라 부른다.
@@ -73,7 +73,7 @@ comments: true
 - 이진트리 순회
   1. 전위 순회 : 현재 노드 > 왼쪽 노드 > 오른쪽 노드 순서로 순회 진행
     
-      <image src='https://user-images.githubusercontent.com/34594339/98507201-75b77080-22a0-11eb-9bcf-0d276f6a686a.png' width='70%'>
+      ![image](https://user-images.githubusercontent.com/34594339/98507201-75b77080-22a0-11eb-9bcf-0d276f6a686a.png)
     
     - 맨 앞의 노드가 루트 노드이다.
     
@@ -81,7 +81,7 @@ comments: true
     
   2. 중위 순회 : 왼쪽 노드 > 현재 노드 > 오른쪽 노드 순서로 순회 진행
       
-      <image src='https://user-images.githubusercontent.com/34594339/98507207-76e89d80-22a0-11eb-9d03-9f72902a57f7.png' width='70%'>
+      ![image](https://user-images.githubusercontent.com/34594339/98507207-76e89d80-22a0-11eb-9d03-9f72902a57f7.png)
     
     - 각 노드의 상대적인 위치를 확인할 수 있다. 
     
@@ -89,7 +89,7 @@ comments: true
     
   3. 후위 순회 : 왼쪽 노드 > 오른쪽 노드 > 현재 노드 순서로 순회 진행
     
-      <image src='https://user-images.githubusercontent.com/34594339/98507207-76e89d80-22a0-11eb-9d03-9f72902a57f7.png' width='70%'>
+      ![image](https://user-images.githubusercontent.com/34594339/98507207-76e89d80-22a0-11eb-9d03-9f72902a57f7.png)
   
     - 맨 뒤의 노드가 루트 노드이다.
 
