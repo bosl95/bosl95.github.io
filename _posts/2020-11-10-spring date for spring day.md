@@ -15,9 +15,7 @@ Spring boot과 친해지기 (1)
 스프링은 자바의 프레임 워크인데, 스프링을 bootstrapping한 것이 스프링 부트라고 한다.<br>
 <br>
 
-<p align='center'>
-<image src='https://user-images.githubusercontent.com/34594339/98670344-ee4c2900-2395-11eb-9be4-10477825485c.png' width='60%'>
-</p>
+![image](https://user-images.githubusercontent.com/34594339/98670344-ee4c2900-2395-11eb-9be4-10477825485c.png')
 
 <br>
 
