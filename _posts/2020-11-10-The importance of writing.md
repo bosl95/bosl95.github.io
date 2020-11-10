@@ -9,4 +9,4 @@ comments: true
 
 # 글쓰기의 중요성
 
-{ % youtube https://youtu.be/HB6C-lT-7f4 % }
+{% include youtube.html id="https://youtu.be/HB6C-lT-7f4" %}
