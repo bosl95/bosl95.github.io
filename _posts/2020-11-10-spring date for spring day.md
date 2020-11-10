@@ -15,7 +15,7 @@ Spring boot과 친해지기 (1)
 스프링은 자바의 프레임 워크인데, 스프링을 bootstrapping한 것이 스프링 부트라고 한다.<br>
 <br>
 
-![image](https://user-images.githubusercontent.com/34594339/98670344-ee4c2900-2395-11eb-9be4-10477825485c.png')
+![image](https://user-images.githubusercontent.com/34594339/98670344-ee4c2900-2395-11eb-9be4-10477825485c.png)
 
 <br>
 
@@ -70,11 +70,7 @@ Spring boot 외에도 Java 웹 어플리케이션을 만들 수 있다(고 한�
   3. 가시적인 규약이 있다. (클래스를 로딩할 떄 가능한 범위가 있다. 자식 클래스 로더는 클래스 로딩 요청 위임을 통해 부모 클래스 로더가 로딩한 클래스를 찾을 수 있지만, 부모 클래스 로더는 자식 클래스 로더가 로딩한 클래스를 알 수 없다. ~~자식 이기는 부모 없다고..~~)<br>
   4. 클래스 언로딩이 불가능하다. 클래스 로더로 로딩한 클래스들을 언로딩 할 수 없다. 가비지 컬렉터가 동작하거나 WAS가 재시작할 때 초기화 된다.
 
-<br>
-
-<p align='center'>
-<image src='https://user-images.githubusercontent.com/34594339/98675313-6ec25800-239d-11eb-8a10-0241d02c45df.png' width='60%'>
-</p>
+![image](https://user-images.githubusercontent.com/34594339/98675313-6ec25800-239d-11eb-8a10-0241d02c45df.png)
 
 <br>
 
@@ -85,9 +81,7 @@ Spring boot 외에도 Java 웹 어플리케이션을 만들 수 있다(고 한�
 
 <br>
 
-  <p align='center'>
-  <image src='https://user-images.githubusercontent.com/34594339/98675719-fad47f80-239d-11eb-94f5-3268d19f3349.png' width='60%'>
-  </p>
+![image](https://user-images.githubusercontent.com/34594339/98675719-fad47f80-239d-11eb-94f5-3268d19f3349.png')
 
 <br>
 
@@ -104,9 +98,7 @@ Spring boot 외에도 Java 웹 어플리케이션을 만들 수 있다(고 한�
 
 <br>
 
-<p align='center'>
-<image src='https://lh6.googleusercontent.com/u9wIjJo3mGFI3OtTQsMbE-KfgcwaDkXYk5Oag2jWkoMArFLJeQhPtzCuTV-QL8TOjff8iX750gZWSuNSyqy8LMLtBSZgs9QWUDlLYI9sJb_6NyjwtkvW1XFlQevusKVOOEkvSnFd' width='60%'>
-</p>
+![image](https://lh6.googleusercontent.com/u9wIjJo3mGFI3OtTQsMbE-KfgcwaDkXYk5Oag2jWkoMArFLJeQhPtzCuTV-QL8TOjff8iX750gZWSuNSyqy8LMLtBSZgs9QWUDlLYI9sJb_6NyjwtkvW1XFlQevusKVOOEkvSnFd)
 
 <br>
 
