@@ -81,7 +81,7 @@ Spring boot 외에도 Java 웹 어플리케이션을 만들 수 있다(고 한�
 
 <br>
 
-![image](https://user-images.githubusercontent.com/34594339/98675719-fad47f80-239d-11eb-94f5-3268d19f3349.png')
+![image](https://user-images.githubusercontent.com/34594339/98675719-fad47f80-239d-11eb-94f5-3268d19f3349.png)
 
 <br>
 
