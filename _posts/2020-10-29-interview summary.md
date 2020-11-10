@@ -8,7 +8,7 @@ comments: true
 사람들이 많이 물어보는 질문을 간추려서 몇가지 인터뷰한 영상을 필요할 때마다 보기 위해 요약하여 정리하였다. <br>
 내가 정리한 내용 외에도 많은 이야기들이 나오기 때문에 자세한 내용은 직접 영상을 보는 것도 좋을 것 같다.
 
-▶ [[영상 보러 가기]](https://youtu.be/g5sxpi0sJc4)
+{% include youtube.html id="g5sxpi0sJc4" %}
 
 <br>
 
