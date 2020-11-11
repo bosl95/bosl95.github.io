@@ -5,7 +5,7 @@ tags: [java, spring, spring boot, 스프링부트]
 comments: true
 ---
 
-Spring boot과 친해지기 (1)
+Spring boot 첫번
 
 # Spring boot의 의미란 무엇인가?
 
