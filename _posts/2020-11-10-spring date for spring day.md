@@ -5,7 +5,7 @@ tags: [java, spring, spring boot, 스프링부트]
 comments: true
 ---
 
-Spring boot 첫번
+Spring boot 첫번째
 
 # Spring boot의 의미란 무엇인가?
 
