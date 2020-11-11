@@ -49,6 +49,9 @@ Spring boot 외에도 Java 웹 어플리케이션을 만들 수 있다(고 한�
   
  <br>
  
+원래 일반적인 로컬 응용프로그램 개발을 위한 JAVA SE에 분산/기업형 응용프로그램 개발을 위한 API인 JAVA EE를 얹어 사용했었다고 한다.<br>
+그러나 쉽고 빠른 스프링이 나오면서 JAVA EE 자리를 대신하게 되었다고 한다.<br>
+
  
 # Web Application Server란 무엇인가?
  
