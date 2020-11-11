@@ -21,9 +21,32 @@ Spring MVC는 MVC 패턴 기반의 웹 프레임 워크를 의미한다.
 
 <br>
 
-- MVC Model 2 아키텍처
+- ### MVC Model 2 아키텍처
   
-  ![image](https://user-images.githubusercontent.com/34594339/98835530-e2d72b80-2483-11eb-9cb1-5bdb5b3aed50.png)
+    ![image](https://user-images.githubusercontent.com/34594339/98835530-e2d72b80-2483-11eb-9cb1-5bdb5b3aed50.png)
+
+<br>
+
+![image](https://user-images.githubusercontent.com/34594339/98836809-78bf8600-2485-11eb-80d2-78cef623dcf8.png)
+
+> #### "앞선 내용에서 말했던 스트럿츠2가 사용한다는 MVC Model2가 이거였군..!"
+
+<br>
+
+대뜸 MVC 패턴에 대해서 알아본 이유는 이 구조를 보시면 알 수 있습니다.<br>
+
+- ### Spring Framework의 구조
+
+    ![image](https://user-images.githubusercontent.com/34594339/98836965-b6241380-2485-11eb-8960-86ceaf9fedd6.png)
+
+<br>
+
+보시면 MVC, DI, Transaction, AOP 등 연결된 것들에 대해서 차근차근 공부할 계획입니다. <br>
+그 중 제일 기초인 MVC 패턴의 기본적인 내용에 대해서 찾아보았습니다.<br>
+
+<br>
+
+# DI (Dependency Injection)
 
 <br>
 
