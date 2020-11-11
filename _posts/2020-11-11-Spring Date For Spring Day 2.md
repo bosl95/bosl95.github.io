@@ -19,7 +19,7 @@ Spring boot 두번째<br>
 
 - JAVA EE의 스펙 (survlet을 확인할 수 있다.)
 
-    ![image](https://user-images.githubusercontent.com/34594339/98806382-77c62e80-245c-11eb-9abb-ac6d3b4a0b29.png){: width="70%" height="70%"}
+    ![image](https://user-images.githubusercontent.com/34594339/98806382-77c62e80-245c-11eb-9abb-ac6d3b4a0b29.png)
     
 <br>
 
@@ -34,10 +34,6 @@ Spring boot 두번째<br>
 - HTML 변경 시 Servlet을 재컴파일해야하는 단점이 있다.
 
 <br>
-
-# 서블릿을 이용하여 개발환경 설정해보기
-
-Gradle을 이용하여 서블릿을 이용한 개발환경을 설정해보려고 한다.(gradle이란 빌드 자동화 시스템이다. 자세한 것은 [여기](https://okky.tistory.com/179)를 참고하자.)<br>
 
 
 
