@@ -102,6 +102,8 @@ Spring boot 외에도 Java 웹 어플리케이션을 만들 수 있다(고 한�
 
 <br>
 
+- 다음 글 : [Spring Date For Spring Day (1)](https://bosl95.github.io/Spring-Date-For-Spring-Day-2/)
+
 # 참고
 
 - [spring과 springboot 차이를 그림으로 보고 싶으시다면 추천(자세한 내용을 모르신다면 패스)](https://ssoco.tistory.com/66)
