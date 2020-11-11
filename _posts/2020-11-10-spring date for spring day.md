@@ -102,7 +102,7 @@ Spring boot 외에도 Java 웹 어플리케이션을 만들 수 있다(고 한�
 
 <br>
 
-- 다음 글 : [Spring Date For Spring Day (1)](https://bosl95.github.io/Spring-Date-For-Spring-Day-2/)
+- 다음 글 : [Spring Date For Spring Day (2)](https://bosl95.github.io/Spring-Date-For-Spring-Day-2/)
 
 # 참고
 
