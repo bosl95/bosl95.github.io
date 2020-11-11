@@ -5,7 +5,7 @@ tags: [java, spring, spring boot, 스프링부트]
 comments: true
 ---
 
-Spring boot 두번째
+Spring boot 두번째<br>
 
 - 이전 글 : [[Spring Date For Spring Day (1)]](https://bosl95.github.io/spring-date-for-spring-day/)
 
@@ -19,7 +19,7 @@ Spring boot 두번째
 
 - JAVA EE의 스펙 (survlet을 확인할 수 있다.)
 
-    ![image](https://user-images.githubusercontent.com/34594339/98806382-77c62e80-245c-11eb-9abb-ac6d3b4a0b29.png)
+    ![image](https://user-images.githubusercontent.com/34594339/98806382-77c62e80-245c-11eb-9abb-ac6d3b4a0b29.png){: width="70%" height="70%"}
     
 <br>
 
@@ -33,7 +33,13 @@ Spring boot 두번째
 - UDP보다 처리속도가 느리다.
 - HTML 변경 시 Servlet을 재컴파일해야하는 단점이 있다.
 
-<
+<br>
+
+# 서블릿을 이용하여 개발환경 설정해보기
+
+Gradle을 이용하여 서블릿을 이용한 개발환경을 설정해보려고 한다.(gradle이란 빌드 자동화 시스템이다. 자세한 것은 [여기](https://okky.tistory.com/179)를 참고하자.)<br>
+
+
 
 # 참고
 
