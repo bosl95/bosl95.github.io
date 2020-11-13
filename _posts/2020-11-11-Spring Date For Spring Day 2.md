@@ -72,28 +72,28 @@ Spring MVC는 MVC 패턴 기반의 웹 프레임 워크를 의미한다.
 
 - 일체형
 
-  ```JAVA
-  class A
-  {
-    private B b;
+      class A
+      {
+        private B b;
 
-    public A(){ 
-      b = new B();    // 안에서 생성
-    }
-  }
-  ```
+        public A(){ 
+          b = new B();    // 안에서 생성
+        }
+      }
+
+
 - 조립형
 
-  ```JAVA
-  class A
-  {
-    private B b;        // new를 통해 생성하지는 않습니다.
 
-    public void setB(B b){      // 외부에서 생성된 B의 값을 setter를 통해 주입해줍니다.
-      this.b = b;
-    }
-  }
-  ```
+      class A
+      {
+        private B b;        // new를 통해 생성하지는 않습니다.
+
+        public void setB(B b){      // 외부에서 생성된 B의 값을 setter를 통해 주입해줍니다.
+          this.b = b;
+        }
+      }
+
 
 조립형은 A라는 부품에 B라는 부품을 따로 만들어 setB(B)를 통해 조립해준다는 방식으로 생각하시면 됩니다.<br>
 그리고 주입에는 두가지 방법이 있다고 합니다.<br>
