@@ -36,8 +36,6 @@ Spring MVC는 MVC 패턴 기반의 웹 프레임 워크를 의미한다.
 
 <br>
 
-대뜸 MVC 패턴에 대해서 알아본 이유는 이 구조를 보시면 알 수 있습니다.<br>
-
 - ### Spring Framework의 구조
 
     ![image](https://user-images.githubusercontent.com/34594339/98836965-b6241380-2485-11eb-8960-86ceaf9fedd6.png)
