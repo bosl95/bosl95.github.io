@@ -95,16 +95,44 @@ Spring boot 세번째<br>
 
 <br>
 
-## 정리
 
 ExamConsole로 선언된 변수가 InlineExamConsole 혹은 GridExamConsole을 조립하면서 바꿔서 사용할 수 있는 것을 확인할 수 있었습니다.<br>
 이런 방식을 DI(Dependecy Injection)이라고 합니다!<br>
 소스코드를 직접 짜보니 훨씬 이해가 쉽네요!!<br>
 
 <br>
+<br>
 
-이어서 계속 ... 
+# Spring DI를 위한 이클립스 플러그인 설치하기
 
+DI를 작업할 때 플러그인을 설치해서 좀 더 사용하기 쉽게 할 수 있습니다!<br>
+그럼 플러그인 설치 과정을 봅시다!<br>
+
+<br>
+
+1. 이클립스 마켓 플레이스를 들어가주세요
+
+    ![image](https://user-images.githubusercontent.com/34594339/99152388-cbe34400-26e4-11eb-928c-8f5c7200f1c1.png)
+
+2.  Spring Tools를 설치해줍시다!
+
+    ![image](https://user-images.githubusercontent.com/34594339/99152468-56c43e80-26e5-11eb-8a94-794196082feb.png)
+
+3. 자 이제 spring.di 패키지에서 New > others를 클릭해 밑의 보이는 spring bean 파일을 생성해줍시다. (setting.xml이란 이름으로 생성해주었습니다.)
+
+    ![image](https://user-images.githubusercontent.com/34594339/99152562-dd791b80-26e5-11eb-853a-44d2d126d667.png)
+    
+4. 설정 파일 확인
+
+       <?xml version="1.0" encoding="UTF-8"?>
+       <beans xmlns="http://www.springframework.org/schema/beans"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+       </beans>
+
+<br>
 
 ## 참고
 
