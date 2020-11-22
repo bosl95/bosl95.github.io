@@ -62,8 +62,55 @@ set은 묵시적으로 생략 가능하고 대문자는 소문자로 바꿔줍�
 
 <br>
 
-이어서 계속...
+Applicationcontext를 통해 xml 파일을 읽어올 수 있습니다.<br>
+Applicationcontext는 지시서의 위치에 따라 종류가 나뉩니다.<br>
+
+- ### ApplicationContext의 종류
+  - ClassPathXmlApplicationContext : 어플리케이션 루트에 있는 경우. 가장 보편적이다.
+  - FileSystemXmlApplicationContext : C드라이브의 한 곳에 있다.
+  - XmlWebApplicationContext  : 웹에 있는 경우
+  - AnnotationConfigApplicationContext : 스캔하는 방법을 쓴다.(뒤에서 설명)
+  
+<br>
+
+Applicationcontext를 사용하기 위해서는 스프링라이브러리를 가져와야합니다.<br>
+스프링 라이브러리를 가져오는 방법에는 1. 스프링 라이브러리 직접 다운로드 2. 메이븐 프로젝트라면 dependency를 지정해주면 알아서 가져오는 2가지 방법이 있습니다.<br>
+메이븐 프로젝트로 바꾸어 스프링 라이브러리를 가져오도록 하겠습니다.<br>
+
+<br>
+
+- 메이븐 프로젝트로 바꾸기
+
+   ![image](https://user-images.githubusercontent.com/34594339/99906750-23546600-2d1c-11eb-85f3-e94f7f39aaf4.png)
+   ![image](https://user-images.githubusercontent.com/34594339/99907673-7d0b5f00-2d21-11eb-8b91-c1ce1f4a4b79.png)
+   ![image](https://user-images.githubusercontent.com/34594339/99907687-8c8aa800-2d21-11eb-862b-33badfc1f23d.png)
+
+  이렇게 pom.xml 파일이 하나 생성되었습니다.<br>
+
+<br>
+
+- Maven 인덱스를 추가하여 Dependency 추가할 때 검색 가능하도록 해주겠습니다.<br>
+  
+  ![image](https://user-images.githubusercontent.com/34594339/99907883-c60fe300-2d22-11eb-88d9-cf525f2af1dc.png)
+
+  others를 눌러 Maven Repositories를 클릭합시다<br>
+  
+  ![image](https://user-images.githubusercontent.com/34594339/99907959-1129f600-2d23-11eb-835a-41eaef0aa938.png)
+   
+  Rebuild index를 눌러 메이븐 인덱스를 불러옵니다.<br>
+   
+<br>
+
+- Dependency 추가하기
+   
+   ![image](https://user-images.githubusercontent.com/34594339/99907733-c6f44500-2d21-11eb-9b90-8bc8cceb1960.png)
+   
+   하단의 Dependecies를 눌러서 하나 추가해줍시다.<br>
+
+<br>
+
 
 # 참고
 
 - [https://www.youtube.com/watch?v=bYu9MNLBvX0&list=PLq8wAnVUcTFUHYMzoV2RoFoY2HDTKru3T&index=7](https://www.youtube.com/watch?v=bYu9MNLBvX0&list=PLq8wAnVUcTFUHYMzoV2RoFoY2HDTKru3T&index=7)
+- 
