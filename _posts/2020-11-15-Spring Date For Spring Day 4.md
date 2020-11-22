@@ -113,4 +113,4 @@ Applicationcontext를 사용하기 위해서는 스프링라이브러리를 가�
 # 참고
 
 - [https://www.youtube.com/watch?v=bYu9MNLBvX0&list=PLq8wAnVUcTFUHYMzoV2RoFoY2HDTKru3T&index=7](https://www.youtube.com/watch?v=bYu9MNLBvX0&list=PLq8wAnVUcTFUHYMzoV2RoFoY2HDTKru3T&index=7)
-- 
+- [https://youtu.be/R_6fW1tVj8Y?list=PLq8wAnVUcTFUHYMzoV2RoFoY2HDTKru3T](https://youtu.be/R_6fW1tVj8Y?list=PLq8wAnVUcTFUHYMzoV2RoFoY2HDTKru3T)
