@@ -62,6 +62,8 @@ set은 묵시적으로 생략 가능하고 대문자는 소문자로 바꿔줍�
 
 <br>
 
+# Application Context
+
 Applicationcontext를 통해 xml 파일을 읽어올 수 있습니다.<br>
 Applicationcontext는 지시서의 위치에 따라 종류가 나뉩니다.<br>
 
@@ -79,17 +81,18 @@ Applicationcontext를 사용하기 위해서는 스프링라이브러리를 가�
 
 <br>
 
-- 메이븐 프로젝트로 바꾸기
 
-   ![image](https://user-images.githubusercontent.com/34594339/99906750-23546600-2d1c-11eb-85f3-e94f7f39aaf4.png)
-   ![image](https://user-images.githubusercontent.com/34594339/99907673-7d0b5f00-2d21-11eb-8b91-c1ce1f4a4b79.png)
-   ![image](https://user-images.githubusercontent.com/34594339/99907687-8c8aa800-2d21-11eb-862b-33badfc1f23d.png)
+# ApplicationContext를 통해 지시서 사용하기
+
+  ![image](https://user-images.githubusercontent.com/34594339/99906750-23546600-2d1c-11eb-85f3-e94f7f39aaf4.png)
+  ![image](https://user-images.githubusercontent.com/34594339/99907673-7d0b5f00-2d21-11eb-8b91-c1ce1f4a4b79.png)
+  ![image](https://user-images.githubusercontent.com/34594339/99907687-8c8aa800-2d21-11eb-862b-33badfc1f23d.png)
 
   이렇게 pom.xml 파일이 하나 생성되었습니다.<br>
 
 <br>
 
-- Maven 인덱스를 추가하여 Dependency 추가할 때 검색 가능하도록 해주겠습니다.<br>
+- Maven 인덱스를 추가하여 Dependency 추가할 때 검색 가능하도록 해주겠습니다.
   
   ![image](https://user-images.githubusercontent.com/34594339/99907883-c60fe300-2d22-11eb-88d9-cf525f2af1dc.png)
 
@@ -98,17 +101,56 @@ Applicationcontext를 사용하기 위해서는 스프링라이브러리를 가�
   ![image](https://user-images.githubusercontent.com/34594339/99907959-1129f600-2d23-11eb-835a-41eaef0aa938.png)
    
   Rebuild index를 눌러 메이븐 인덱스를 불러옵니다.<br>
-   
-<br>
-
+  
 - Dependency 추가하기
+
+  ![image](https://user-images.githubusercontent.com/34594339/99907733-c6f44500-2d21-11eb-9b90-8bc8cceb1960.png)
+
+  하단의 Dependecies를 눌러서 하나 추가해줍시다.<br>
    
-   ![image](https://user-images.githubusercontent.com/34594339/99907733-c6f44500-2d21-11eb-9b90-8bc8cceb1960.png)
-   
-   하단의 Dependecies를 눌러서 하나 추가해줍시다.<br>
+<br>
+
+- 시간이 오래 걸리므로 직접 다운로드하는 방법으로 설명하자면, 
+
+  1. [메이븐 레포지토리 사이트](https://mvnrepository.com/)에 들어갑니다.
+  2. "Spring Framework"를 검색하여 줍니다.
+  3. Spring Context를 클릭하고 기호에 맞는 버전을 선택하여 메이븐 태그의 코드를 클릭하여 복사해줍니다.
+  4. pom.xml 파일에 <version> 태그 바로 밑에 <dependencies>를 만들어 그 안에 복사한 코드를 넣어줍니다.
+  5. depency hierachy를 들어가보면 spring context가 추가된 것을 볼 수 있습니다.(필요한 라이브러리를 자동 추가된 것을 볼 수 있습니다.)
+      
+     ![image](https://user-images.githubusercontent.com/34594339/99908974-0e320400-2d29-11eb-993f-83890878fa68.png)
+  
+  6. 이제 ApplicationContext를 자동 import 하면 됩니다!!!! 👏🏻👏🏻👏🏻👏🏻 (만약 클릭이 안되는 경우 프로젝트 우클릭 > 메이븐 > update project를 하면 import가 가능합니다)
 
 <br>
 
+# DI에 있는 객체 꺼내오기
+
+xml 파일이 잘 읽혔고 Context를 통해 각 객체들이 생성이 되었다면 **IOC 컨테이너**에 담겨져 있을 것입니다.<br>
+IOC 컨테이너에서 id나 type명을 통해 꺼내 사용할 수 있습니다.<br>
+
+<br>
+
+- getBean()을 사용하여 "console"을 id로 가지는 객체를 가져옵니다. 이때 객체 타입이 object이기 때문에 형식 변환을 해서 사용해주어야합니다.
+
+      ExamConsole console = (ExamConsole) context.getBean("console");
+ 
+- class를 통해 불러오는 경우는 형 변환이 따로 필요 없습니다.
+
+      ExamConsole console = (ExamConsole) context.getBean(ExamConsole.class);
+      
+- setting.xml을 다시 봅시다.
+
+    ```
+	<bean id="console" class="spring.di.ui.newGridExamConsole">
+		<property name="exam" ref="exam" />
+	</bean>
+    ```
+      
+   newGridExamConsole/InlineExameConsole을 넣느냐에 따라서 결과값이 달라지는 것을 확인할 수 있습니다.<br>
+    
+<br>
+    
 
 # 참고
 
